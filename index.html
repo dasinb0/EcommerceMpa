@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike - Just Do It</title>
+    <title>Nike? - Just Do It</title>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cart.html">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="image/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +20,7 @@
     <section>
         <nav>
             <div class="logo">
-                <h1>Nik<span>e</span></h1>
+                <h1>NIKE<span>?</span></h1>
             </div>
             <a href="#">
                 <img src="image/nikerosa2.png" alt="" class="pinknike">
@@ -27,17 +28,17 @@
               
 
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Products">Products</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Review">Review</a></li>
-                <li><a href="#Services">Services</a></li>
+                <li><a href="#Home">HOME</a></li>
+                <li><a href="#Products">PRODUCTS</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#Review">REVIEW</a></li>
+                <li><a href="#Services">SERVICES</a></li>
             </ul>
 
             <div class="icons">
                 <i class="fa-solid fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <a href="#login_form" class="user-link"><i class="fa-solid fa-user"></i></a>
+                <i class="fa-solid fa-cart-shopping" onclick="location.href='cart.html'"><span class="contador">0</span></i>
+                <a href="#login_form" class="user-link"><i class="fa-solid fa-user"></i>LogIN</a>
             </div>
 
         </nav>
@@ -55,17 +56,29 @@
                     </p>
                 </div>
                 <div class="main_image">
-                    <img src="image/shoes.png">
+                    <img src="image/shoesportada.png">
                 </div>
             </div>
             <div class="social_icon">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://www.facebook.com/nike/?locale=es_LA" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  
+                  <a href="https://twitter.com/Nike" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  
+                  <a href="https://www.instagram.com/nike/?hl=es" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  
+                  <a href="https://www.linkedin.com/company/nike/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  
             </div>
             <div class="button">
-                <a href="#">SHOP NOW</a>
+                <a href="#Products">SHOP NOW</a>
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
@@ -75,7 +88,7 @@
 
     <!--Products-->
 
-    <div class="products" id="Products">
+    <div class="productss" id="Products">
         <h1>Products</h1>
 
         <div class="box">
@@ -87,7 +100,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes1.png">
+                    <img src="image/yellowshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -95,7 +108,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$100.99</h3>
+                    <h3>$100</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -116,7 +129,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes2.png">
+                    <img src="image/black&silvershoes.png">
                 </div>
 
                 <div class="products_text">
@@ -124,7 +137,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$200.99</h3>
+                    <h3>$200</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -145,7 +158,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes3.png">
+                    <img src="image/violetshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -153,7 +166,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$175.99</h3>
+                    <h3>$175</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -174,7 +187,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes4.png">
+                    <img src="image/blue&blackshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -182,7 +195,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$120.99</h3>
+                    <h3>$120</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -203,7 +216,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes5.png">
+                    <img src="image/greyshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -211,7 +224,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$150.99</h3>
+                    <h3>$150</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -232,7 +245,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes6.png">
+                    <img src="image/orangeshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -240,7 +253,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$220.99</h3>
+                    <h3>$220</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -261,7 +274,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes.png">
+                    <img src="image/blueshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -269,7 +282,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$110.99</h3>
+                    <h3>$110</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -290,7 +303,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes7.png">
+                    <img src="image/red&blackshoes.png">
                 </div>
 
                 <div class="products_text">
@@ -298,7 +311,7 @@
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </p>
-                    <h3>$150.99</h3>
+                    <h3>$150</h3>
                     <div class="products_star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -672,10 +685,10 @@
             <div class="tag">
                 <h1>Follw Us</h1>
                 <div class="social_link">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>                    
+                    <a href="https://www.facebook.com/nike/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Nike" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/nike/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/nike/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>                    
                 </div>
             </div>
 
@@ -690,7 +703,8 @@
         </div>
     </footer>
 
-    
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
 
